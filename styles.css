@@ -1,0 +1,68 @@
+* {
+  font-family: verdana, serif, sans-serif;
+}
+
+body {
+  background-color: #DEDEDE;
+}
+
+nav {
+  text-align: right;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px; /* margin: 0px 20px 0 0; */
+  display: inline;
+}
+
+section {
+  padding: 120px;
+  justify-content: center;
+}
+
+.tarjeta {
+  background-color: white;
+  width: 750px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 2px 3px 0px rgb(0, 0, 0, 0.12);
+}
+
+input, select, textarea {
+  display: block;
+  width: 100%;
+  font-size: 150%;
+}
+
+form div {
+  text-align: left;
+  margin: 20px;
+
+  /*margin: 20px 30px 10px 40px; /* arriba derecha abajo izquierda
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  margin-left: 40px;*/
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: red;
+}
+
+.inputConError {
+  /* border-color: red;
+  font: 200%; */
+  box-shadow: 0px 0px 6px 2px rgb(255, 0, 0);
+}
